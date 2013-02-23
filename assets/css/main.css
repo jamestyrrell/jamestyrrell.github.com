@@ -24,6 +24,15 @@ body {
     background-color: white;
 }
 
+img.scaled {
+	max-width: 800px;
+}
+
+img.word-wrapped {
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
 #post {
 	margin-top:  0;
 }
