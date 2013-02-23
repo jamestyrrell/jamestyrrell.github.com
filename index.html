@@ -1,0 +1,15 @@
+---
+layout: layout
+title: tyrrell on file
+---
+
+  <div id="posts">
+  	  <h1 class="title">Posts</h1>
+    <ul>
+      {% for post in site.posts %}
+      <li>
+	 <a href="{{ post.url }}">{{ post.title }}</a> <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>

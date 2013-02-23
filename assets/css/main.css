@@ -1,0 +1,91 @@
+body {
+    background: white;
+    font: normal 14px/1.5 "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+#content {
+	float: left;
+	display: inline;
+    width: auto;
+    max-width: 800px;
+    margin: 20px 0 0 40px;
+}
+
+#sidebar {
+	float: left;
+	display: inline;
+	margin: 20px 0 0 20px; 
+    color: #777777;    
+    top: 80px;
+    width: 220px;
+    background-color: white;
+}
+
+#post {
+	margin-top:  0;
+}
+
+#posts span.date {
+	font-size: smaller;
+	color: #777777; 
+}
+
+#sidebar div.about {
+	font-size: smaller;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	text-align: center;
+}
+
+#sidebar div.title {
+	text-align: center;
+	color: #fcfcfc;
+    background-color: white;
+    font-weight: bold;
+}
+
+#sidebar div.title h1 a {
+    color: black;
+}
+
+#navigation a {
+    float: left;
+    color: #777777;  
+}
+
+#profile-img {
+	width: 128px;
+	height: 128px;
+	border-radius: 64px;
+	-webkit-border-radius: 64px;
+	-moz-border-radius: 64px;
+	background: url("http://www.gravatar.com/avatar/7204abd98a95a34c573377df1e97c4d7?s=128") no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	margin: 10px 0 20px 20px;
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+div#previously h1 {
+	font-size: inherit;
+	margin: 7px 0 0 0;
+}
+
+div#currently h1 {
+	font-size: inherit;
+	margin: 7px 0 0 0;
+}
+
+div#next h1 {
+	font-size: inherit;
+	margin: 7px 0 0 0;
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+}

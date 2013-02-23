@@ -1,1 +1,12 @@
 _site/
+.classpath
+.project
+.settings
+target
+.idea
+.checkstyle
+*.iml
+*.jks
+*.ipr
+*.iws
+
